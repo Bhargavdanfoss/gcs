@@ -312,9 +312,9 @@ body{
 .reportfeedback-button{  
     cursor: pointer;
     position: fixed;    
-    right: 17%;
+    right: 6%;
     z-index: 9; 
-    top:80%;       
+    top:70%;       
 }
 .reportfeedback-button:hover{     
     padding: 5px;

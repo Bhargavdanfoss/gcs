@@ -58,7 +58,7 @@
   </script>
   <script>
     $(document).ready(function (){
-      fetch('../Json/GSNewsData.json')
+      fetch('./Json/GSNewsData.json')
       .then(res => res.json())
       .then(data => {         
               $('.swayframe_apr').attr("src", data[0].hrefAPR);

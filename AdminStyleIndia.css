@@ -195,7 +195,7 @@ body{
 .rightSideAreaNews .block .leftArea
 {
   float: left;
-  margin-right: 10px;
+  margin-left:2.5%;
   position: relative;
   width:20%;
   margin-top:1%;
@@ -238,7 +238,7 @@ body{
 
 .rightSideAreaNews .block .RightDetailArea
 {
-  margin:0px 0;
+  margin-left:2.5%;
   display: inline-block;
   width: 70%;
   position: relative;
@@ -331,28 +331,14 @@ body{
 /* Button used to open the contact form - fixed at the bottom of the page */
 
 .reportfeedback-button{
-  background-color: #E2000F;
-    color: white;
-    border: none;
-    cursor: pointer;
+  width:260px;
+      cursor: pointer;
     position: fixed;
-    bottom: 20%;
-    right: 0;
+    right:6%;
     z-index: 9;
-    font-size: 18px;
-    text-orientation: sideways;
-    width: auto;
-    writing-mode: vertical-lr;
-    font-size: 14px;
-    border-radius: 5px 0px 0px 5px;    
-    padding: 3px;
-    color: whitesmoke;
-    opacity: 0.5;
+    top:72.5%;
 }
-.reportfeedback-button:hover{
-  background-color: #E2000F;
-    
-    opacity: 1;
+.reportfeedback-button:hover{  
     padding: 5px;
 }
 
@@ -529,7 +515,7 @@ textarea:focus{
   }
 
   .rightSideAreaNews .block .RightDetailArea{
-    margin: 0px 10px;
+    margin-left:10%;
     width: 65%;
   }
 
@@ -545,7 +531,11 @@ textarea:focus{
   .gallery{
     margin-left:0;
   }
-  
+  .reportfeedback-button{
+    width:160px;
+    top:85%;
+    right:-5%;
+  }
   
 }
 @media only screen and (max-width: 1000px) and (min-width: 501px){
@@ -554,6 +544,9 @@ textarea:focus{
   }
   .events_top{
     display: none;
+  }
+  .rightSideAreaNews .block .RightDetailArea{
+    margin-left:0;
   }
   .news{
     margin-left: 8%;
@@ -579,10 +572,22 @@ textarea:focus{
   .logo img {
     width: 200px;
 }
+.reportfeedback-button{
+  width:230px;
+  top:80%;
+  right:-4%;
+}
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1001px){
 #myInput1, #myInput2{
   font-size:10px;width:68px;height:17px;border-style:none
+}
+.rightSideAreaNews .block .RightDetailArea{
+  margin-left:5.5%;
+}
+.reportfeedback-button{
+  width:230px;
+  top:74%;  
 }
 }
